@@ -8,8 +8,11 @@
 * C++11
 
 ## Features
-1. Utilize projection matrix to process player input
-2. Implement countdown system without internet connect
+1. Utilizing **projection matrix** to process player input to accomplish one to one on player finger moving distance and character displacement for devices with different resolution and pixels
+2. Implement **inheritance** on common functionalities shared by different types of enemies like applying damage on the superclass inherited by all enemy classes
+3. Implement **dynamic polymorphism** when a player projectile overlaps with an enemy instance, different types of enemy receives different amount of damage
+4. Implement **countdown system without internet** connection
+
 
 ## Lessons learned
 1. Familiarize myself with C++ pointer and reference
