@@ -8,8 +8,8 @@
 * C++11
 
 ## Features
-1. Use projection matrix to process player input
-2. Implement clock countdown without internet connect
+1. Utilize projection matrix to process player input
+2. Implement countdown system without internet connect
 
 ## Lessons learned
 1. Familiarize myself with C++ pointer and reference
