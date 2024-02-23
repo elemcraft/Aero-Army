@@ -8,10 +8,10 @@
 * C++11
 
 ## Features
-1. Utilizing **projection matrix** to process player input to accomplish one to one on player finger moving distance and character displacement for devices with different resolution and pixels
-2. Implement **inheritance** on common functionalities shared by different types of enemies like applying damage on the superclass inherited by all enemy classes
-3. Implement **dynamic polymorphism** when a player projectile overlaps with an enemy instance, different types of enemy receives different amount of damage
-4. Implement **countdown system without internet** connection
+* Implement a sophisticated control system utilizing projection matrix to ensure a consistent one-to-one mapping between the player's finger movement and character displacement, even across devices with varying resolutions and pixel densities.
+* Utilize inheritance principle to common functionalities shared among various enemy types. For example, by implementing the applying damage functionality in the superclass inherited by all enemy classes, this strategy minimized code redundancy and enhanced scalability as it enables seamless integration of new enemy types with minimal effort.
+* Utilize dynamic polymorphism to implement varying damage calculations when a player projectile collides with different enemy instances. Through this approach, distinct enemy types receive customized damage amounts upon collision.
+* Develop a robust countdown system that functions without requiring an internet connection. This is achieved by storing the timestamp when each operation is initiated, allowing precise tracking of time elapsed even in offline mode. 
 
 
 ## Lessons learned
